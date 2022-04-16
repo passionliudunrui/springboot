@@ -19,4 +19,14 @@ public class UserServiceImp implements UserService{
     public List<User> findAll() {
         return userDao.findAll();
     }
+
+    @Override
+    public User findById(String id) {
+        return userDao.findById(id);
+    }
+
+    @Override
+    public void delete(String id) {
+         userDao.delete(id);
+    }
 }
