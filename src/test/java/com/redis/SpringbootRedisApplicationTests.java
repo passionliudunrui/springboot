@@ -21,6 +21,12 @@ class SpringbootRedisApplicationTests {
         for(User user:all){
             System.out.println(user);
         }
+        System.out.println("0000000000000000000");
+
+        for(User user:all){
+            System.out.println(user);
+        }
+
     }
 
 }
