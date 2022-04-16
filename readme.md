@@ -25,6 +25,12 @@
 
 
 -------------------------将一个初始化的项目提交到github------------------
-1.
+1.git init
+2.git add .
+3.git remote add origin https://github.com/passionliudunrui/springboot.git
+4.git branch(查看分支)   git branch passion(创建分支)  git checkout passion(选择分支)
+5.git push -u origin passion  
+6.git push -u origin master
+
 
     
