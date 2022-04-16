@@ -37,7 +37,7 @@ class SpringbootRedisApplicationTests {
 
         System.out.println(user1);
 
-        User user2 = userService.findById("2");
+        User user2 = userService.findById("4");
 
         System.out.println(user2);
 
